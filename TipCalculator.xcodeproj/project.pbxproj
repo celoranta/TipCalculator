@@ -13,6 +13,9 @@
 		958A63002040A8560072CC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958A62FF2040A8560072CC61 /* Assets.xcassets */; };
 		958A63032040A8560072CC61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958A63012040A8560072CC61 /* LaunchScreen.storyboard */; };
 		958A63062040A8560072CC61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A63052040A8560072CC61 /* main.m */; };
+		958A630E2040BA200072CC61 /* CLEBillField.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A630D2040BA200072CC61 /* CLEBillField.m */; };
+		958A63112040BA380072CC61 /* CLETipInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A63102040BA380072CC61 /* CLETipInputField.m */; };
+		958A63172040BAF00072CC61 /* CLECalcButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 958A63162040BAF00072CC61 /* CLECalcButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		958A63022040A8560072CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		958A63042040A8560072CC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958A63052040A8560072CC61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		958A630C2040BA200072CC61 /* CLEBillField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLEBillField.h; sourceTree = "<group>"; };
+		958A630D2040BA200072CC61 /* CLEBillField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLEBillField.m; sourceTree = "<group>"; };
+		958A630F2040BA380072CC61 /* CLETipInputField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLETipInputField.h; sourceTree = "<group>"; };
+		958A63102040BA380072CC61 /* CLETipInputField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLETipInputField.m; sourceTree = "<group>"; };
+		958A63152040BAF00072CC61 /* CLECalcButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLECalcButton.h; sourceTree = "<group>"; };
+		958A63162040BAF00072CC61 /* CLECalcButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLECalcButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				958A62F92040A8560072CC61 /* ViewController.h */,
 				958A62FA2040A8560072CC61 /* ViewController.m */,
 				958A62FC2040A8560072CC61 /* Main.storyboard */,
+				958A63152040BAF00072CC61 /* CLECalcButton.h */,
+				958A63162040BAF00072CC61 /* CLECalcButton.m */,
+				958A630C2040BA200072CC61 /* CLEBillField.h */,
+				958A630D2040BA200072CC61 /* CLEBillField.m */,
+				958A630F2040BA380072CC61 /* CLETipInputField.h */,
+				958A63102040BA380072CC61 /* CLETipInputField.m */,
 				958A62FF2040A8560072CC61 /* Assets.xcassets */,
 				958A63012040A8560072CC61 /* LaunchScreen.storyboard */,
 				958A63042040A8560072CC61 /* Info.plist */,
@@ -142,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958A630E2040BA200072CC61 /* CLEBillField.m in Sources */,
+				958A63112040BA380072CC61 /* CLETipInputField.m in Sources */,
 				958A62FB2040A8560072CC61 /* ViewController.m in Sources */,
+				958A63172040BAF00072CC61 /* CLECalcButton.m in Sources */,
 				958A63062040A8560072CC61 /* main.m in Sources */,
 				958A62F82040A8560072CC61 /* AppDelegate.m in Sources */,
 			);

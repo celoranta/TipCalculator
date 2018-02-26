@@ -8,7 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+
+
+@property (nonatomic) float tipPercentage;
+
+@property (nonatomic) float tipAmount;
+
+
 
 
 @end
